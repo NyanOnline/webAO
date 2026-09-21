@@ -5,6 +5,6 @@
 export function changeCharacter(_event: Event) {
   document.getElementById("client_waiting")!.style.display = "block";
   document.getElementById("client_charselect")!.style.display = "block";
-  document.getElementById("client_emo")!.innerHTML = "";
+  document.getElementById("client_emo")!.style.display = "none";
 }
 window.changeCharacter = changeCharacter;
